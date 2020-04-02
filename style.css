@@ -1,0 +1,54 @@
+body{
+ background-color: skyblue;   
+}
+
+#container {
+    margin-top: 0px auto;
+    background-color: aqua;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    height: 800px;
+    overflow-y: auto;
+    color: black;
+    border: 10px solid #01a3a4;
+    border-radius: 10px;
+}
+#container h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#container ul{
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+#container ul li{
+    list-style: none;
+    border: 2px solid ;
+    width: 80%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 40px;
+    margin: 5px auto;
+    text-align: left;
+
+ }
+
+ #container ul li label{
+     margin: 0 auto;
+     vertical-align: middle;
+     height: 100%;
+     line-height: 40px;
+     font-size: 10px;
+ }
+
+ #container ul li #check {
+     float: left;
+     width: 30px;
+     height: 30px;
+     margin: 5px;
+     
+ }
